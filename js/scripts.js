@@ -34,7 +34,7 @@ function currentTime () {
     document.getElementById('hour').innerHTML = theHour;
     document.getElementById('minutes').innerHTML = theMinutes;
     document.getElementById('seconds').innerHTML = theSeconds;
-    document.getElementById('ampm').innerHTML = amPM;
+    document.getElementById('ampm').innerHTML = amPm;
 
     let evenSeconds = theSeconds % 2;
 
